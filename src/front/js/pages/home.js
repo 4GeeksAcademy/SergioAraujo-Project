@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { Context } from "../store/appContext";
 import rigoImageUrl from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
+import Sergio from '/workspaces/SergioAraujo-Project/public/Sergio.jpg'
 
 export const Home = () => {
 	const { store, actions } = useContext(Context);
@@ -24,6 +25,13 @@ export const Home = () => {
 
 			<p className="bg-success">
 				Soy el parrafo de SERGIO{" "}
+				<a href="https://start.4geeksacademy.com/starters/react-flask">
+					Read documentation
+				</a>
+			</p>
+
+			<p className="bg-warning">
+				Soy el parrafo de Joan{" "}
 				<a href="https://start.4geeksacademy.com/starters/react-flask">
 					Read documentation
 				</a>
