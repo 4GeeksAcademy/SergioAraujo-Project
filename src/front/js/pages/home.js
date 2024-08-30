@@ -21,6 +21,13 @@ export const Home = () => {
 					Read documentation
 				</a>
 			</p>
+
+			<p className="bg-success">
+				Soy el parrafo de SERGIO{" "}
+				<a href="https://start.4geeksacademy.com/starters/react-flask">
+					Read documentation
+				</a>
+			</p>
 		</div>
 	);
 };
