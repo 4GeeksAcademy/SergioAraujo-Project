@@ -36,6 +36,13 @@ export const Home = () => {
 					Read documentation
 				</a>
 			</p>
+
+			<p className="bg-warning">
+				Soy el parrafo de Beatriz{" "}
+				<a href="https://start.4geeksacademy.com/starters/react-flask">
+					Read documentation
+				</a>
+			</p>
 		</div>
 	);
 };
